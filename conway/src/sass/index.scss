@@ -1,0 +1,36 @@
+.container {
+  margin: 50px;
+  h1,
+  h3,
+  p {
+    text-align: center;
+  }
+
+  .wrapper {
+    display: flex;
+    align-content: space-between;
+
+    .rightSide {
+      margin-left: 50px;
+
+      li {
+        margin-bottom: 10px;
+      }
+    }
+  }
+}
+
+button {
+  background: none;
+  color: black;
+  border-radius: 5px;
+  outline: none;
+  margin: 5px 5px;
+  padding: 5px 15px;
+  font-size: 16px;
+  margin-left: 60px;
+
+  &:hover {
+    cursor: pointer;
+  }
+}
